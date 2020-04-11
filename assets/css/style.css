@@ -1,0 +1,87 @@
+body{
+    background-image: url('/assets/images/geometric-leaves.png');
+}
+
+.links{
+    position: absolute;
+    right: 0;
+}
+.links li {
+    display: inline;
+    padding: 10px;
+    margin-right: 5px;
+    position: relative;
+    top: 30px;
+}
+header{ 
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    border: 2px solid #cccccc;
+    background: #ffffff;
+
+}
+header::after{
+    content: "";
+  clear: both;
+  display: table;
+}
+.yourname{
+    float: left;
+    background-color: #4aaaa5;
+    width: 200px;
+    padding: 40px;
+    color: #ffffff
+    text-align: center;
+
+
+}
+
+.main{
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    width: 960px;
+    margin-left: 150px;
+    margin-right: 200px;
+
+}
+
+.aboutme{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cccccc;
+    color: #4aaaa5;
+}
+
+h1{
+    background-color: #ffffff ;
+    border-width: 4px color: #cccccc;
+}
+
+section{
+    padding: 35px;
+}
+#left{
+    width: 100px;
+    padding: ;
+    color: #fff;
+    background-color: #4aaaa5 ;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    padding: 30px;
+    margin-bottom: 20px;
+    color: #333;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+
+}
